@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.ccswitch-deepseek</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/node</string>
+        <string>/Users/yipengfei/ccswitch-deepseek/index.js</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/yipengfei/ccswitch-deepseek</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <string>/tmp/ccswitch-deepseek.log</string>
+    <string>/tmp/ccswitch-deepseek.err</string>
+</dict>
+</plist>
